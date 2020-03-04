@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+/* Main container */
+.main-container {
+  width: 100vw;
+  height: 100vh;
+}
+/* Images container */
+.img1-container {
+  text-align: center;
+  position: relative;
+  top: 300px;
+}
+.img2-container {
+  text-align: center;
+  position: relative;
+  top: -20px;
+  left: 70px;
+}
+.img3-container {
+  text-align: center;
+  position: relative;
+  top: 30px;
+  left: 100px;
+}
+.img4-container {
+  text-align: center;
+  position: relative;
+  top: -100px;
+  left: 250px;
+}
+.img5-container {
+  text-align: center;
+  position: relative;
+  top: -750px;
+  left: 200px;
+}
+/* Images */
+.img1 {
+  width: 300px;
+  filter: grayscale(50);
+  opacity: 0.9;
+  transition: 3s;
+  box-shadow: 3px 3px 3px black;
+}
+.img2 {
+  width: 300px;
+  filter: grayscale(50);
+  opacity: 0.2;
+  transition: 3s;
+  box-shadow: 3px 3px 3px black;
+}
+.img3 {
+  width: 300px;
+  filter: grayscale(50);
+  opacity: 0.2;
+  transition: 3s;
+  box-shadow: 3px 3px 3px black;
+}
+.img4 {
+  width: 300px;
+  filter: grayscale(50);
+  opacity: 0.1;
+  transition: 3s;
+  box-shadow: 3px 3px 3px black;
+}
+.img5 {
+  width: 300px;
+  filter: grayscale(50);
+  opacity: 0.1;
+  transition: 3s;
+  box-shadow: 3px 3px 3px black;
+}
+/* Images:hover */
+.img1:hover {
+  filter: none;
+  opacity: 1;
+  transform: scale(1.5);
+}
+.img2:hover {
+  filter: none;
+  opacity: 1;
+  transform: scale(1.5);
+}
+.img3:hover {
+  filter: none;
+  opacity: 1;
+  transform: scale(1.5);
+}
+.img4:hover {
+  filter: none;
+  opacity: 1;
+  transform: scale(1.5);
+}
+.img5:hover {
+  filter: none;
+  opacity: 1;
+  transform: scale(1.5);
+}
