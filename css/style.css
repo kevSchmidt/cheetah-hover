@@ -4,7 +4,8 @@
 }
 /* Main container */
 .main-container {
-  width: fit-content;
+  width: 100vw;
+  height: 100vh;
 }
 /* Images container */
 .img1-container {
