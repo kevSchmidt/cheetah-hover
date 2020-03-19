@@ -1,3 +1,3 @@
 # Chettah
-### Training with css
+## Training with index-z / opacity / :hover
 ![](./img/preview.png)
